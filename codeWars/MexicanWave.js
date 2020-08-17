@@ -1,6 +1,7 @@
 function wave (text) {
   
     let finalArray = []
+    let subArray = []
   for ( let i = 0; i < text.length; i++) {
       let arr = text.split('')
       //console.log(arr)
